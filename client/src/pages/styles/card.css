@@ -1,0 +1,55 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin-inline: auto;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 2px 5px 10px #ededed;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 200ms ease-in;
+}
+
+.card-container .card:hover {
+  transform: scale(1.02);
+}
+
+.card-container .card:hover .card-button {
+  background-color: #222;
+  color: white;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-container .card-image {
+  height: 15rem;
+  width: 20rem;
+}
+
+.card-title {
+  padding: 1rem;
+  color: #222;
+}
+
+.card-description {
+  padding: 5px;
+  color: #222;
+}
+
+.cooking-time {
+  padding: 5px;
+  color: green;
+  font-style: italic;
+}
+
+.card-container .saved-heading {
+  font-style: italic;
+}

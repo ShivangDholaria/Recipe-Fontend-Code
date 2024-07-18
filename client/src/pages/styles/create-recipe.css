@@ -1,0 +1,50 @@
+.create-recipe-form {
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 25px;
+  background: #222;
+}
+
+.create-recipe-form .input-details {
+  margin-top: 25px;
+}
+
+.create-recipe-form .input-details .input-box {
+  margin-bottom: 15px;
+}
+
+.input-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input-details .input-box input,
+.input-details .input-box textarea {
+  width: 70%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-details .input-box input {
+  height: 45px;
+}
+
+.input-details .input-box textarea {
+  height: 150px;
+}
+
+.details button,
+.create-recipe-form button {
+  padding: 10px 0;
+  margin-top: 10px;
+  height: 100%;
+  width: 40%;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 17px;
+}
