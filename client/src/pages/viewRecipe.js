@@ -11,13 +11,13 @@ export const ViewRecipe = () => {
   const { recipeID } = useParams();
   const [recipe, setRecipe] = useState({
     // Add recipe details
-    // imageUrl:
-    //   "https://www.cookwithmanali.com/wp-content/uploads/2014/04/Paneer-Tikka-Masala.jpg",
-    // name: "Paneer Tikka Masala",
-    // description:
-    //   "Paneer Tikka Masala is a popular Indian dish made with marinated and grilled paneer cubes simmered in a rich onion tomato gravy.",
-    // cookingTime: 30,
-    // instructions: `We will start by making the paneer tikka. To a large bowl, add yogurt (1/3 cup + 1 tablespoon), make sure the yogurt is thick (if using regular homemade yogurt, drain the yogurt for 3 to 4 hours before using in the recipe).\nUsing a spatula or whisk, mix until all the ingredients are well combined.\nNow add 225 grams paneer (cubed into big cubes), 1 medium red onion (quartered and separated into petals) and 1 medium green pepper (cut into 1 inch cubes).\nMix until the paneer, onion and peppers are well coated with the marinade. You can use your hands here. Cover the bowl and refrigerate for 30 minutes at the least.`,
+    imageUrl:
+      "https://www.cookwithmanali.com/wp-content/uploads/2014/04/Paneer-Tikka-Masala.jpg",
+    name: "Paneer Tikka Masala",
+    description:
+      "Paneer Tikka Masala is a popular Indian dish made with marinated and grilled paneer cubes simmered in a rich onion tomato gravy.",
+    cookingTime: 30,
+    instructions: `We will start by making the paneer tikka. To a large bowl, add yogurt (1/3 cup + 1 tablespoon), make sure the yogurt is thick (if using regular homemade yogurt, drain the yogurt for 3 to 4 hours before using in the recipe).\nUsing a spatula or whisk, mix until all the ingredients are well combined.\nNow add 225 grams paneer (cubed into big cubes), 1 medium red onion (quartered and separated into petals) and 1 medium green pepper (cut into 1 inch cubes).\nMix until the paneer, onion and peppers are well coated with the marinade. You can use your hands here. Cover the bowl and refrigerate for 30 minutes at the least.`,
   });
 
   const navigate = useNavigate();
